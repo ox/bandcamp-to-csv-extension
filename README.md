@@ -1,3 +1,5 @@
+![](https://github.com/ox/bandcamp-to-csv-extension/blob/main/public/icon/BC_to_CSV_64.png)
+
 # Bandcamp Cart to CSV
 
 This Chrome extension will generate and download a CSV with your current Bandcamp cart. Each row will have the name of the release, the cost split up into units and currency, and a link to the release. This is a stepping stone that I use to convert the various currencies to USD to guage how the cart cost is distributed.

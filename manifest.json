@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Bandcamp Cart to CSV",
+  "description": "Download your Bandcamp cart as a CSV",
+	"icons": {
+		"16": "public/icon/BC_to_CSV_16.png",
+		"32": "public/icon/BC_to_CSV_32.png",
+		"48": "public/icon/BC_to_CSV_48.png",
+		"64": "public/icon/BC_to_CSV_64.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://*.bandcamp.com/*"],
+			"js":["background.js"]
+		}
+	],
+	"web_accessible_resources": [
+		"public/*"
+	],
+	"browser_action": {
+		"default_icon": {
+			"16": "public/icon/BC_to_CSV_16.png",
+			"32": "public/icon/BC_to_CSV_32.png",
+			"48": "public/icon/BC_to_CSV_48.png",
+			"64": "public/icon/BC_to_CSV_64.png"
+		},
+		"default_title": "Bandcamp Cart to CSV"
+	}
+}
